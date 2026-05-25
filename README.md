@@ -1,6 +1,6 @@
 # Agricultural RAG Assistant
 
-A retrieval-augmented generation (RAG) system built for the **36 Hours Hackathon** that answers crop advisory questions using Punjab Agricultural University (PAU) *Package of Practices* PDFs.
+A retrieval-augmented generation (RAG) system built for the **36 Hours Hackathon** that answers crop advisory questions.
 
 The project ingests agricultural PDFs, extracts text/tables/images, enriches chunks with GPT-4o-mini summaries, stores embeddings in ChromaDB, and serves answers through an interactive notebook chat loop and a Flask REST API.
 
